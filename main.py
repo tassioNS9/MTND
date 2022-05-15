@@ -47,7 +47,7 @@ for palavra in palavras:
                     if (index_p+1)==len(fita):
                         fita_p.append(valor_branco)
                     pilha.append((estdAtual, index_p+1, fita_p))
-                elif direcionamento == 'P':
+                elif direcionamento == 'I':
                     pilha.append((estdAtual, index_p, fita_p))
 
     if aceitacao:
